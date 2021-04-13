@@ -2,7 +2,7 @@ body{
   padding:0;
   margin:0;
   font-family: Helvetica, sans-serif;
-  background: dimgrey;
+  background: PaleGoldenRod;
 }
 
 .logo{
@@ -19,12 +19,12 @@ nav{
   /* background: grey; */
   /*  height: 60px; */
   text-align: center;
-  font-family: Georgia, serif;
+  font-family: verdana, sans-serif;
 }
 
 nav a{
   text-align: center;
-  color: white;
+  color: dimgray;
   font-size: 1.5em;
   padding: 15px;
   margin: 10px;
@@ -39,7 +39,7 @@ nav a:hover{
 /* styles for hero or feature */
 .hero{
   background-image: url("editorial_winner_edit.jpg");
-  height: 900px;
+  height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -49,26 +49,28 @@ nav a:hover{
 }
 .hero h2{
   position:absolute;
-  top:2%;
+  top:1%;
   left:5%;
-  color: white;
+  color: PaleGoldenRod;
+  font-size: 2em;
 }
 .hero h4{
   position: absolute;
-  top: 5%;
-  left: 5%;
+  top: 9%;
+  left: 6%;
   color: white;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 button{
   position: absolute;
-  top: 16%;
+  top: 40%;
   left: 5%;
   background: none;
   padding:5px;
-  border: 2px white solid;
-  color: white;
+  border: 2px PaleGoldenRod solid;
+  color: LightGoldenRodYellow;
   font-size: 1.3em;
+  font-weight: bold;
   border-radius: 5px;
 }
 
@@ -94,7 +96,7 @@ main{
 .flexItem{
   flex-basis: 300px;
   flex-grow: 2;
-  margin: 2px 20px 2px 20px;
+  margin: 5px 5px 5px 5px;
   background:  rgb(255, 255, 255, 0.5);
   padding: 30px;
 }
