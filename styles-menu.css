@@ -1,0 +1,127 @@
+body{
+  padding:0;
+  margin:0;
+  font-family: Helvetica, sans-serif;
+  background: PaleGoldenRod;
+}
+
+nav{
+  /* --- New Color for the NAV --- */
+  background: rgb(255, 255, 255, 0.3);
+  /* background: grey; */
+  /* height: 60px; */
+  text-align: right;
+  font-family: Baloo 2, cursive;
+}
+
+nav a{
+  height: inherit;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+  padding: 2px;
+  margin: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+button{
+  background: PaleGoldenRod;
+  padding:5px;
+  border: 2px PaleGoldenRod solid;
+  color: black;
+  font-size: 1em;
+  font-family: Baloo 2, cursive;
+  border-radius: 5px;
+}
+
+main{
+  margin: 20px auto;
+      /*top right bottom left */
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+}
+.flexItem{
+  flex-basis: 300px;
+  flex-grow: 2;
+  margin: 2px 20px 2px 20px;
+  background:  rgb(255, 255, 255, 0.5);
+  padding: 30px;
+}
+h2{
+  text-align: center;
+  font-size: 2em;
+  font-family: Antonio, sans-serif;
+}
+h3{
+  padding-bottom: 1px;
+  font-size: 1.4em;
+  font-family: Montserrat, sans-serif;
+}
+h4{
+  padding-top: 1px;
+  font-size: 1.2em;
+  font-family: Montserrat, sans-serif;
+}
+h5{
+  text-align: center;
+  font-size: 1.6em;
+  font-family: Antonio, sans-serif;
+}
+.logo{
+  margin-left: auto;
+  margin-right: 0;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+img{
+    width: 100%;
+    display: block;
+    margin: 0;
+    border:0;
+}
+
+footer{
+    background: black;
+    padding: 30px;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+}
+
+footer a{
+    color: white;
+}
+
+
+/* medium size below */
+@media screen and (min-width: 700px) {
+        .logo{
+          /* width: 350px; */
+        }
+        img{
+            display:inline;
+            width:30%;
+        }
+        .flexItem{
+            /* margin:20px; */
+            justify-content: space-space-around;
+        }
+
+
+}
+/* large screen styles below */
+@media screen and (min-width: 1300px) {
+  img{
+
+  }
+}
