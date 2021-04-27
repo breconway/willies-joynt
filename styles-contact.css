@@ -131,12 +131,10 @@ footer a{
   }
 
   .form-container{
-/*         CHANGE WIDTH of FORM TO YOUR PREFERENCE */
-    width:50%;
+    width:40%;
   }
   input{
-     /* CHANGE WIDTH TO YOUR PREFERENCE */
-    width:60%;
+    width:50%;
   }
   button{
     margin-top: 2%;
